@@ -7,8 +7,12 @@
     - Tâche principale (en gras)
     - Sous-tâche (sans markdown)
 
-=> Text area + add button
+=> Text area + add button ou en pressant sur la touche "entrée"
 => Faire apparaître la tâche sous la barre d'ajout avec des puces
+
+* Éditer une tâche 
+
+=> Add edit button
 
 * Supprimer une tâche : 
     - Barrer une tâche réalisée (barrer)
