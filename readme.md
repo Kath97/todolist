@@ -1,5 +1,20 @@
 -- Étape 1 : Définition du problème, Évaluation du problème et des objectifs --
-     Créer une todolist en ligne
+              _Créer une todolist en ligne_
+
+ __Objectif 1 : Programmer une todolist fonctionnelle
+
+- Écrire une tâche avec un [input text] + un bouton "ajouter"
+- Afficher la tâche ajoutée sous le [input text] sous forme de liste
+- Supprimer définitivement la tâche ajoutée au clic
+
+__Objectif 2 : Programmer des éléments supplémentaires
+
+- Ajouter une tâche avec la touche [entrée]
+- Éditer une tâche avec un bouton "modifier"
+- Barrer une tâche réalisée avec une checkbox
+- Prioriser une tâche avec un code couleur
+      => badge, étiquette, drapeau ?
+
 
 -- Étape 2 : Cahier des charges fonctionnel --
 
@@ -15,32 +30,8 @@ Caractéristiques :
 * L'utilisateur veut créer une liste de tâches. Il faut donc :
 1- Écrire la tâche pour l'ajouter à sa liste
 2- Visualiser la tâche écrite sous forme de liste
-
-* L'utilisateur veut éditer une tâche :
-- Modifier le texte 
-- Prioriser une tâche
-- Barrer une tâche effectuée
-- Supprimer définitivement une tâche
-
--- Étape 3 : Rédiger un algorithme --
-
-* Ajouter une tâche (add a task) :
-    - Tâche principale
-
-=> Text area + add button ou en pressant sur la touche "entrée"
-=> Faire apparaître la tâche sous la barre d'ajout avec des puces ok
-
-* Éditer une tâche 
-
-=> Add edit button
-
-* Supprimer une tâche : 
-    - Barrer une tâche réalisée (barrer)
-    - Faire disparaître une tâche de la liste (suppression définitive)
-
-=> cliquer sur la tâche pour la faire disparaître
-
-* Prioriser une tâche :
-    - Créer un code couleur
-
-=> badge, étiquette, drapeau ?
+3- Éditer la liste des tâches
+    - Modifier le texte 
+    - Prioriser une tâche
+    - Barrer une tâche effectuée
+    - Supprimer définitivement une tâche
