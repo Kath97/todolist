@@ -1,9 +1,22 @@
--- Étape 1 : Définition du problème --
+-- Étape 1 : Définition du problème, Évaluation du problème et des objectifs --
      Créer une todolist en ligne
 
--- Étape 2 : Rédiger un algorithme --
+-- Étape 2 : Cahier des charges fonctionnel --
+               User story : 
 
-* Ajouter une tâche (add an item) :
+* L'utilisateur veut créer une liste de tâches. Il faut donc qu'il :
+1- Écrire la tâche pour l'ajouter à sa liste
+2- Visualiser la tâche écrite sous forme de liste
+
+* L'utilisateur veut éditer une tâche :
+1- Modifier le texte
+2- Prioriser une tâche
+
+* Supprimer une tâche : 
+
+Rédiger un algorithme --
+
+* Ajouter une tâche (add a task) :
     - Tâche principale (en gras)
     - Sous-tâche (sans markdown)
 
