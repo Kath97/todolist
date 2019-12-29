@@ -7,4 +7,9 @@ function newTask() {
     li.appendChild(document.createTextNode("-" + task)); //Show the task with a "-"
     ul.appendChild(li);
     document.getElementById("task").value = "";
+    li.onclick = dltTask;
+  }
+
+  function dltTask(e) {
+    e.target.parentElement.removeChild(e.target);
   }
